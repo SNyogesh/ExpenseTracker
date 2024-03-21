@@ -1,4 +1,4 @@
-export const AppReducer = (state,action) => {
+export  default function AppReducer(state,action) {
     switch(action.type){
 
         case 'DELETE_TRANSACTION':
@@ -17,3 +17,10 @@ export const AppReducer = (state,action) => {
           return state;
     }
 }
+// import React from 'react'
+
+// export default function AppReducer() {
+//   return (
+//     <div>AppReducer</div>
+//   )
+// }
